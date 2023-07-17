@@ -1,0 +1,16 @@
+spring:
+  devtools:
+    restart:
+      poll-interval: 2s
+      quiet-period: 1s
+
+# MongoDB parameters
+  data:
+    mongodb:
+      authentication-database: twitter
+      auto-index-creation: true
+      host: localhost
+      port: 26000
+      username: user1
+      password: user1
+      database: twitter
